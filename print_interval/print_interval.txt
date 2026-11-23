@@ -1,0 +1,19 @@
+Expected files   : print_interval.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program that displays the given str followed by a newline ('\n').
+
+- If a character's index position in str is a non-null multiple of 3, display '3'.
+- If it is a multiple of both 5 and 3, display '5'.
+- If it is a multiple of 5, display '3'.
+- Otherwise, display the character as is.
+
+If the number of arguments is not 1, the program displays a newline.
+
+Example:
+
+$> ./print_interval "abcdef" | cat -e
+abc5e3$
+$> ./print_interval | cat -e
+$
